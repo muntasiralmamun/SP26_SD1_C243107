@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args)
+    {
+                Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter your numbers:");
+            int a = input.nextInt();
+            int b = input.nextInt();
+            int c = input.nextInt();
+            if(a >= b && a >= c)
+                System.out.println("The Largest is : " + a);
+            else if(b >= a && b >= c)
+                System.out.println("The Largest is : " + b);
+            else
+                System.out.println("The Largest is : " + c);
+    }
+}
