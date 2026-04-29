@@ -1,0 +1,15 @@
+-- SELECT * FROM Books WHERE copies<3;
+-- INSERT into Books(book_id,title,author,copies)
+-- VALUES(1,"Harry potter","Paulo Coelho",2),
+-- (2,"The Alchemist","Paulo Coelho",3),
+-- (3,"Database Systems","Paulo Coelho",4),
+-- (4,"To kill a mockingbird","Paulo Coelho",5);
+SELECT * FROM Books;
+-- UPDATE Books
+-- SET copies = copies + 5
+-- WHERE title = "Database Systems";
+-- Update Books
+-- SET copies = copies - 1
+-- WHERE title = "Harry potter";
+-- DELETE FROM Books
+-- WHERE title = "To kill a mockingbird";
