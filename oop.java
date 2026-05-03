@@ -11,7 +11,7 @@ abstract class Person
     }
     public String getName(){return name;}
     public int getAge(){return age;}
-    public abstract void displayRole();{}
+    public abstract void displayRole();
 };
 class Student extends Person{
     private String studentId;
