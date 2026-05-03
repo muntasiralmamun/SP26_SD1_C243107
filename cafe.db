@@ -1,0 +1,13 @@
+-- INSERT into cafe(item_id,item_name,price,stock)
+-- VALUES(1,"Coffee",100,3),(2,"Sandwich",120,5),(3,"Cake",150,2),(4,"Tea",70,5);
+-- SELECT * FROM cafe where price>100;
+-- SELECT * FROM cafe where stock<5;
+-- UPDATE cafe
+-- SET price = 150
+-- WHERE item_name = "Coffee";
+-- SELECT * FROM cafe;
+-- UPDATE cafe
+-- SET stock = stock-2
+-- WHERE item_name="Sandwich";
+-- DELETE FROM cafe
+-- WHERE item_name = "Tea";
